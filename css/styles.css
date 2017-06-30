@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 li {
   list-style-type: none;
   color: #e40007;
@@ -13,4 +16,29 @@ li {
   .col-md-3 {
     background-color: purple;
   }
+}
+
+.magic{
+  height: 500px;
+  width: 1000px;
+  background-color: #FF0000;
+  size: 48px;
+  border: 1px;
+  border-color: #000
+}
+
+.header{
+  height: 100px;
+  width: 1000px;
+  background-color: #FBFF00;
+  text-align: center;
+}
+
+.side{
+  height: 500px;
+  width: 300px;
+  size: 48px;
+  border: 1px;
+  border-color: #000;
+  background-color: #0008FF;
 }
